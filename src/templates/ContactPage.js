@@ -2,10 +2,10 @@ import React from 'react'
 import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
-import PageHeader from '../components/PageHeader'
-import FormSimpleAjax from '../components/FormSimpleAjax'
+//import PageHeader from '../components/PageHeader'
+import FormSimple from '../components/FormSimpleAjax'
 import Content from '../components/Content'
-import GoogleMap from '../components/GoogleMap'
+//import GoogleMap from '../components/GoogleMap'
 import Layout from '../components/Layout'
 import './ContactPage.css'
 
@@ -21,11 +21,11 @@ export const ContactPageTemplate = ({
   locations
 }) => (
   <main className="Contact">
-    <PageHeader
+    {/* <PageHeader
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
-    />
+    /> */}
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
         <div>
@@ -57,14 +57,14 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
+          <FormSimple name="Simple Form Ajax" />
         </div>
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
+    {/* <GoogleMap locations={locations} /> */}
   </main>
-)
+ )
 
 const ContactPage = ({ data: { page } }) => (
   <Layout

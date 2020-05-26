@@ -4,21 +4,20 @@ import './Form.css'
 
 export default ({
   name = 'Simple Form',
-  subject = '', // optional subject of the notification email
+  subject = 'Offert', // optional subject of the notification email
   action = ''
 }) => (
   <form
     className='Form'
     name={name}
     action={action}
-    data-netlify=''
-    data-netlify-honeypot='_gotcha'
+    
   >
     <label className='Form--Label'>
       <input
         className='Form--Input'
         type='text'
-        placeholder='Name'
+        placeholder='Namn'
         name='name'
         required
       />
@@ -27,26 +26,12 @@ export default ({
       <input
         className='Form--Input'
         type='email'
-        placeholder='Email'
+        placeholder='Epost'
         name='email'
         required
       />
     </label>
-    <label className='Form--Label has-arrow'>
-      <select
-        className='Form--Input Form--Select'
-        name='type'
-        defaultValue='Type of Enquiry'
-        required
-      >
-        <option disabled hidden>
-          Type of Enquiry
-        </option>
-        <option>Need to know more</option>
-        <option>Found a bug</option>
-        <option>Want to say hello</option>
-      </select>
-    </label>
+    
     <label className='Form--Label'>
       <textarea
         className='Form--Input Form--Textarea'

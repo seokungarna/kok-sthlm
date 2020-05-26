@@ -1,15 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import Image from './Image'
 import Content from './Content'
+import { Link } from 'gatsby'
 import './PageHeader.css'
+
+
 
 const PageHeader = ({
   title,
   subtitle,
   backgroundImage,
   large,
+  offertknapp,
   className = ''
 }) => {
   if (large) className += ' PageHeader-large'
@@ -29,6 +32,11 @@ const PageHeader = ({
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
+      {offertknapp &&
+       <Link to="/offert">
+       <div class="Button">{offertknapp}</div>    
+  </Link>}
+       
       </div>
     </div>
   )

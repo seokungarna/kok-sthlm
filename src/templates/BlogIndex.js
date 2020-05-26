@@ -67,6 +67,7 @@ export const BlogIndexTemplate = ({
             title={title}
             subtitle={subtitle}
             backgroundImage={featuredImage}
+            offertknapp='Begär Offert'
           />
 
           {!!postCategories.length && (

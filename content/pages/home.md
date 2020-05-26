@@ -1,30 +1,34 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+offertknapp: 'Begär Offert'
+title: Köksrenovering Stockholm
+featuredImage: './images/kitchen1.jpg'
+subtitle: 'Kunniga och pålitliga hantverkare som hjälper dig hela vägen till ditt drömkök.'
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: Trygg köksrenovering i Stockholm med Nöjd Kundgaranti. Enkelt, smidigt och flexibelt. Kontakta oss för offert idag. Ring eller maila, eller använd vårat formulär.
+  title: Kunniga och pålitliga.
+
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+# Köksrenovering i Stockholm - pålitligt och seriöst
 
-# Features
+Köket är ett utav de rum i hemmet som används mycket. Det är inte bara till för att laga mat i utan även för att umgås i med familj och vänner. Därför bör ett kök vara både ombonat, praktiskt och vara ett ställe där man trivs!
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
+Välkommen till det trygga och säkra valet av hantverkare som utför köksrenovering i Stockholmsområdet. Vi byter och renoverar kök året om och tar huvudansvaret för att ditt kök blir renoverat som du vill ha det. Vi arbetar efter dina önskemål om material och utformningen och vi vill att du är 100 % nöjd när renoveringen är klar. Du får en komplett tjänst av hög kvalité där vi levererar samtliga material och samordnar våra kunniga och behöriga hanverkare inom plattsättning, el, snickeri och VVS och andra delar som kan tänkas vara relevant för din köksrenovering. Hos oss får du hjälp med allt från planering och inköp till rivning, och allt där emellan såsom bygg, måleri, ljussättning och installation av vitvaror.
 
-## Get started
+Är du intresserad av att renovera ditt kök tveka inte att kontakta oss via [formuläret](/offert) här på sidan så återkommer vi inom kort med en kostnadsfri offert. Det går givetvis bra att ringa oss också. Du kan även höra av dig om du vill ta del av våra referenser, och då återkommer vi inom kort med exempel på arbeten liknande det du vill ha utfört.
 
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
+Välkommen till oss när du ska byta kök!
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+
+# Badrumsrenovering
+
+Vi erbjuder även badrumsrenoveringar. I ett badrum ska man kunna koppla av, det ska vara praktiskt, kanske vill du ha ett badrum med spakänsla. Du väljer det du vill ha inom kakel, plattor, färger, inredning, ljussättning och vi sätter upp det precis som du vill ha. Vi hjälper till med att planera det perfekta badrummet med de funktioner som önskas och av god kvalité.
+
+Vår tjänst är komplett och du får hjälp med planering, inköp, rivning, installation, måleri etc utav kunniga och behöriga hantverkare inom alla de områden som behövs. 
+
+Vi vill att du ska känna dig 100 % nöjd med ditt badrum och känna att det har de funktioner och den design du vill när vi är klara med uppdraget. 
+
+Välkommna att [kontakta oss här](/offert) om du ska renovera ditt badrum så återkommer vi inom kort med en kostnadsfri offert.
+
