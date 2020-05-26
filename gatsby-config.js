@@ -12,7 +12,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         /*id: 'GTM-add_your_tag_here',*/
-        // id: 'GTM-P4RNF8D',
+        id: 'GTM-P4RNF8D',
         includeInDevelopment: false
       }
     },
@@ -127,13 +127,13 @@ module.exports = {
     },
     'gatsby-plugin-sitemap',
     {
-      // resolve: 'gatsby-plugin-netlify-cms',
-      // options: {
-      //   modulePath: `${__dirname}/src/cms/cms.js`,
-      //   stylesPath: `${__dirname}/src/cms/admin.css`,
-      //   enableIdentityWidget: true
-      // }
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        stylesPath: `${__dirname}/src/cms/admin.css`,
+        enableIdentityWidget: true
+      }
     },
-    // 'gatsby-plugin-netlify' // make sure to keep it last in the array
+     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }

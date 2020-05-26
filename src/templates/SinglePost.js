@@ -44,9 +44,9 @@ export const SinglePostTemplate = ({
                     key={cat.category}
                     className="SinglePost--Meta--Category"
                   >
-                    {cat.category}
+                    {/* {cat.category} */}
                     {/* Add a comma on all but last category */}
-                    {index !== categories.length - 1 ? ',' : ''}
+                    {/* {index !== categories.length - 1 ? ',' : ''} */}
                   </span>
                 ))}
               </Fragment>

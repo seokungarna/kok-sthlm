@@ -28,7 +28,7 @@ export default class Meta extends Component {
       canonicalLink,
       siteTitle,
       siteDescription,
-      googleTrackingId
+      googleTrackingId = false
       // overwrite { title, description } if in fields or fields.meta
     } = this.props
 
@@ -48,9 +48,10 @@ export default class Meta extends Component {
         {twitterCreatorAccount && (
           <meta name="twitter:creator" content={twitterCreatorAccount} />
         )}
+        {/* {noindex && <meta name="robots" content="noindex" />} */}
         {canonicalLink && <link rel="canonical" href={canonicalLink} />}
 
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="sv_SE" />
         <meta property="og:site_name" content={siteTitle} />
         <meta name="twitter:description" content={siteDescription} />
         <meta name="twitter:title" content={siteTitle} />

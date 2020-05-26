@@ -7,12 +7,11 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
-    subject: 'Offert', // optional subject of the notification email
-    action: '',
+    name: 'Köksrenovering Stockholm',
+    subject: 'Offert/Förfrågan', // optional subject of the notification email
+    action: 'https://formspree.io/xlepjnol',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
-    errorMessage:
-      'Nått gick snett, var vänlig e-mail eller ring oss.'
+    errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.'
   }
 
   state = {
@@ -34,7 +33,7 @@ class Form extends React.Component {
         if (res.ok) {
           return res
         } else {
-          throw new Error('Network error')
+         throw new Error('Network error')
         }
       })
       .then(() => {
@@ -59,62 +58,19 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
+          {/* <script src="https://www.google.com/recaptcha/api.js" /> */}
         </Helmet>
         <form
           className="Form"
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify=""
-          netlify-recaptcha=""
+         
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
           )}
-          {/* <div className="Form--Group">
-            <label className="Form--Label">
-              <input
-                className="Form--Input Form--InputText"
-                type="text"
-                placeholder="Firstname"
-                name="firstname"
-                required
-              />
-              <span>Firstname</span>
-            </label>
-            <label className="Form--Label">
-              <input
-                className="Form--Input Form--InputText"
-                type="text"
-                placeholder="Lastname"
-                name="lastname"
-                required
-              />
-              <span>Lastname</span>
-            </label>
-          </div> */}
-          {/* <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset> */}
+         
            <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
@@ -130,7 +86,7 @@ class Form extends React.Component {
               className="Form--Input Form--InputText"
               type="email"
               placeholder="E-post"
-              name="emailAddress"
+              name="_replyto"
               required
             />
             <span>E-post</span>
@@ -145,21 +101,6 @@ class Form extends React.Component {
             />
             <span>Telefonnummer</span>
           </label>
-          {/* <label className="Form--Label has-arrow">
-            <select
-              className="Form--Input Form--Select"
-              name="type"
-              defaultValue="Type of Enquiry"
-              required
-            >
-              <option disabled hidden>
-                Type of Enquiry
-              </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
-            </select>
-          </label> */}
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
@@ -171,10 +112,6 @@ class Form extends React.Component {
             <span>Meddelande</span>
           </label>
          
-          <div
-            className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
-          />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input

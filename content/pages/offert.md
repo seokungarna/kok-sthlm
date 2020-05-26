@@ -2,8 +2,8 @@
 template: ContactPage
 slug: offert
 title: Begär offert
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
+featuredImage: ../images/phone.jpg
+subtitle: Kontakta oss enkelt via formuläret nedan. Målet är att Ni ska få svar inom 24 timmar.
 address: 'Vasagtan 22'
 phone: 08 123 123 123 123 123
 email: example@example.com
@@ -18,9 +18,11 @@ meta:
 
 #  Begär offert
 
-Välkommen att kontakta oss för mer information och kostnadsfri offert. Vi nås via kontaktformuläret här eller på telefonnummer: 08 123 123 123 123
+Välkommen att kontakta oss för mer information eller kostnadsfri offert. Vi nås via kontaktformuläret här eller på telefonnummer: 08 123 123 123 123
 
 Vi kommer gärna förbi och ser över vad som behöver göras för att ta fram ett så bra kostnadsförslag som möjligt. 
+
+**Vill du att ditt företag ska synas här?** Kontakta oss idag!
 
 
 <!-- 

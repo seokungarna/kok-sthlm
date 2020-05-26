@@ -34,8 +34,8 @@ const PageHeader = ({
         )}
       {offertknapp &&
        <Link to="/offert">
-       <div class="Button">{offertknapp}</div>    
-  </Link>}
+       <div className="Button">{offertknapp}</div>    
+      </Link>}
        
       </div>
     </div>
