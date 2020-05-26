@@ -10,6 +10,7 @@ class Form extends React.Component {
     name: 'Köksrenovering Stockholm',
     subject: 'Offert/Förfrågan', // optional subject of the notification email
     action: 'https://formspree.io/xlepjnol',
+    method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
     errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.'
   }
@@ -26,14 +27,23 @@ class Form extends React.Component {
     const form = e.target
     const data = serialize(form)
     this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
+    fetch(form.action, {
+      method: 'POST',
+      mode: 'no-cors',
+      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: 'same-origin', // include, *same-origin, omit
+      headers: {
+        //'Content-Type': 'application/json'
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body:  stringify(data),
     })
       .then(res => {
         if (res.ok) {
           return res
         } else {
-         throw new Error('Network error')
+          console.log(res);
+         //throw new Error('Network error')
         }
       })
       .then(() => {
@@ -58,7 +68,7 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          {/* <script src="https://www.google.com/recaptcha/api.js" /> */}
+          {<script src="https://www.google.com/recaptcha/api.js" />}
         </Helmet>
         <form
           className="Form"
@@ -111,7 +121,7 @@ class Form extends React.Component {
             />
             <span>Meddelande</span>
           </label>
-         
+          <div className="g-recaptcha" data-sitekey="6Lf7gPwUAAAAAGD5RgY4pdjRMGn7n7ynDEBNNrdw"></div>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input

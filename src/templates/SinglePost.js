@@ -22,8 +22,8 @@ export const SinglePostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
-          <ChevronLeft /> BACK
+        <Link className="SinglePost--BackButton" to="/inspiration/">
+          <ChevronLeft /> TILLBAKA
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">

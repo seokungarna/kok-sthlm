@@ -4,13 +4,14 @@ import './Form.css'
 
 export default ({
   name = 'Simple Form',
-  subject = 'Offert', // optional subject of the notification email
-  action = ''
+  subject = 'Offert/Förfrågan', // optional subject of the notification email
+  action = 'https://formspree.io/xlepjnol'
 }) => (
   <form
     className='Form'
     name={name}
     action={action}
+    method='POST'
     
   >
     <label className='Form--Label'>
@@ -21,21 +22,32 @@ export default ({
         name='name'
         required
       />
+    
     </label>
+    <span>Namn</span>
     <label className='Form--Label'>
       <input
         className='Form--Input'
         type='email'
-        placeholder='Epost'
-        name='email'
+        placeholder='E-post'
+        name='_replyto'
         required
       />
     </label>
+    <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Telefonnummer"
+              name="telefon"
+              required
+            />
+     </label>
     
     <label className='Form--Label'>
       <textarea
         className='Form--Input Form--Textarea'
-        placeholder='Message'
+        placeholder='Meddelande'
         name='message'
         rows='10'
         required
@@ -47,7 +59,7 @@ export default ({
     <input
       className='Button Form--SubmitButton'
       type='submit'
-      value='Enquire'
+      value='Skicka Meddelande'
     />
   </form>
 )
