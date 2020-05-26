@@ -19,4 +19,4 @@ Vill du ha ett harmoniskt kök välj ett kök i färgen grön. Den gröna färge
 
 Ett vitt, luftigt kök med luckor i grön högglansig yta tillsammans med en fondvägg i samma gröna nyans ger en rogivande känsla i köket. En bänkskiva med vit högglansig yta bryter av det gröna och ger köket spännande kontraster.
 
-Lindblomsgrönt är en väldigt ljus grön färg och ett kök i med luckor i den färgen ger ett väldigt ljust och fräscht intryck. Tillsammans med ett snyggt vitt kakel och även här bänkskivor med vit högglansig yta blir
+Lindblomsgrönt är en väldigt ljus grön färg och ett kök i med luckor i den färgen ger ett väldigt ljust och fräscht intryck. Tillsammans med ett snyggt vitt kakel och bänkskivor med vit högglansig yta blir köket något extra.
