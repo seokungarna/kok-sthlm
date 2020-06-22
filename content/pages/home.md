@@ -4,10 +4,10 @@ slug: ''
 offertknapp: 'Begär Offert'
 title: Köksrenovering Stockholm
 featuredImage: './images/kitchen1.jpg'
-subtitle: 'Kunniga och pålitliga hantverkare som hjälper dig hela vägen till ditt drömkök.'
+subtitle: 'Pålitliga hantverkare specialiserade på på att renovera kök'
 meta:
   description: Trygg köksrenovering i Stockholm med Nöjd Kundgaranti. Enkelt, smidigt och flexibelt. Kontakta oss för offert idag. Ring eller maila, eller använd vårat formulär.
-  title: Kunniga och pålitliga.
+  title: Pålitliga hantverkare specialiserade på på att renovera kök.
 
 ---
 
@@ -30,5 +30,5 @@ Vår tjänst är komplett och du får hjälp med planering, inköp, rivning, ins
 
 Vi vill att du ska känna dig 100 % nöjd med ditt badrum och känna att det har de funktioner och den design du vill när vi är klara med uppdraget. 
 
-Välkommna att [kontakta oss här](/offert) om du ska renovera ditt badrum så återkommer vi inom kort med en kostnadsfri offert.
+Välkommna att [kontakta oss här](/offert) om du ska renovera ditt badrum så återkommer vi inom kort med en kostnadsfri offert. Vi står också till tjänst med andra typer av renoveringar, förutom kök och badrum. Vi arbetar i hela Stockholm med omnejd, så kontakta oss idag om du behöver renovera ditt kök!
 
