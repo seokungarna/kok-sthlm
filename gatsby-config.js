@@ -8,6 +8,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'se'
+      }
+    },
     // {
     //   resolve: 'gatsby-plugin-google-tagmanager',
     //   options: {
