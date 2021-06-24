@@ -8,7 +8,6 @@ export const query = graphql`
       meta {
         title
         description
-        noindex
         canonicalLink
       }
     }
@@ -24,7 +23,6 @@ export default class Meta extends Component {
       absoluteImageUrl = '',
       twitterSiteAccount,
       twitterCreatorAccount,
-      noindex,
       canonicalLink,
       siteTitle,
       siteDescription,

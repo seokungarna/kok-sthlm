@@ -3,7 +3,7 @@ template: HomePage
 slug: ''
 offertknapp: 'Begär Offert'
 title: Köksrenovering Stockholm
-featuredImage: './images/kitchen1.jpg'
+featuredImage: './images/kitchen1.webp'
 subtitle: 'Pålitliga hantverkare specialiserade på på att renovera kök'
 meta:
   description: Trygg köksrenovering i Stockholm med Nöjd Kundgaranti. Enkelt, smidigt och flexibelt. Kontakta oss för offert idag. Ring eller maila, eller använd vårat formulär.

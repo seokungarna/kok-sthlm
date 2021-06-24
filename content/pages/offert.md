@@ -12,8 +12,9 @@ locations:
     lng: '18.05'
     mapLink: ''
 meta:
-  description: Begär en kostnadsfri offert från oss redan idag!
+  description: Här kan du enkelt kontakta oss via formuläret nedan. Givetvis går det också bra att ringa. Målet är att Ni ska få svar inom 24 timmar.
   title: Begär offert
+  canonicalLink: 'https://www.xn--kksrenovering-stockholm-7kc.nu/offert/'
 ---
 
 #  Begär offert
