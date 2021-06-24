@@ -17,7 +17,7 @@ meta:
   canonicalLink: 'https://www.xn--kksrenovering-stockholm-7kc.nu/offert/'
 ---
 
-#  Begär offert
+##  Begär offert
 
 Välkommen att kontakta oss för mer information eller kostnadsfri offert. Vi nås via kontaktformuläret här eller på telefonnummer: 08 123 123 123 123
 
