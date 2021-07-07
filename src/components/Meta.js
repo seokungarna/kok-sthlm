@@ -38,11 +38,9 @@ export default class Meta extends Component {
         {description && (
           <meta property="og:description" content={description} />
         )}
-        {url && <meta property="og:type" content="website" />}
-        {url && <meta property="og:url" content={url} />}
-        {twitterSiteAccount && (
-          <meta name="twitter:site" content={twitterSiteAccount} />
-        )}
+        {canonicalLink && <meta property="og:type" content="website" />}
+        {canonicalLink && <meta property="og:url" content={canonicalLink} />}
+        {canonicalLink && <meta name="twitter:site" content={canonicalLink} />}
         {twitterCreatorAccount && (
           <meta name="twitter:creator" content={twitterCreatorAccount} />
         )}
