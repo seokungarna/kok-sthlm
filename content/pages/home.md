@@ -3,15 +3,15 @@ template: HomePage
 slug: ''
 offertknapp: 'Begär Offert'
 title: Köksrenovering Stockholm
-featuredImage: './images/kitchen1.jpg'
+featuredImage: './images/kitchen1.webp'
 subtitle: 'Pålitliga hantverkare specialiserade på på att renovera kök'
 meta:
   description: Trygg köksrenovering i Stockholm med Nöjd Kundgaranti. Enkelt, smidigt och flexibelt. Kontakta oss för offert idag. Ring eller maila, eller använd vårat formulär.
-  title: Pålitliga hantverkare specialiserade på på att renovera kök.
+  title: Specialisester på köksrenovering.
 
 ---
 
-# Köksrenovering i Stockholm - pålitligt och seriöst
+## Köksrenovering i Stockholm - pålitligt och seriöst
 
 Köket är ett utav de rum i hemmet som används mycket. Det är inte bara till för att laga mat i utan även för att umgås i med familj och vänner. Därför bör ett kök vara både ombonat, praktiskt och vara ett ställe där man trivs!
 
@@ -22,7 +22,7 @@ Välkommen till det trygga och säkra valet av hantverkare som utför köksrenov
 Välkommen till oss när du ska byta kök!
 
 
-# Badrumsrenovering
+## Badrumsrenovering
 
 Vi erbjuder även badrumsrenoveringar. I ett badrum ska man kunna koppla av, det ska vara praktiskt, kanske vill du ha ett badrum med spakänsla. Du väljer det du vill ha inom kakel, plattor, färger, inredning, ljussättning och vi sätter upp det precis som du vill ha. Vi hjälper till med att planera det perfekta badrummet med de funktioner som önskas och av god kvalité.
 

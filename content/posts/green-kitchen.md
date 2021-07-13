@@ -4,13 +4,13 @@ title: Grönt är Skönt?
 status: Published
 date: '2019-12-12'
 categories:
-  - category: News
+  - category: Blogg
 featuredImage: '../images/green.jpg'
 excerpt: >-
   Vill du ha ett harmoniskt kök välj ett kök i färgen grön. Den gröna färgen står för balans och stabilitet. Naturfärger är trendigt nu och grönt är verkligen förknippat med natur. Det finns mängder av olika gröna nyanser att välja på som allt från mossgrön till lindblomsgrön, eller pastellgrönt. Kombinationerna av hur man använder den gröna färgen kan göras i mängder av olika variationer.
 meta:
-  description: En artikel om färgen grön i kök.
-  title: Grönt är Skönt?
+  description: En artikel om färgen grön i kök. Är grönt skönt? Svar; Speciellt i gröna fondväggar.
+  title: Är Grönt är Skönt?
 ---
 
 ![](/images/green.jpg)

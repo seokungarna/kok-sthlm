@@ -6,7 +6,7 @@ offertknapp: "Kontakta oss"
 featuredImage: '../images/sale.jpg'
 subtitle: 'Vill ditt företag synnas här?'
 meta:
-  description: Om oss.
+  description: Här kan du finna information om oss på Köksrenovering-Stockholm
   title: Vill ditt företag synnas här?
 
 ---

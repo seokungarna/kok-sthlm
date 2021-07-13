@@ -4,7 +4,7 @@ title: Kök i naturmaterial
 status: Published
 date: '2020-01-15'
 categories:
-  - category: News
+  - category: Blogg
 featuredImage: '../images/rustic.jpg'
 excerpt: >-
   Tänk dig ett kök i vacker ek eller något annat naturmaterial. Kök i trä ger en naturlig och mjuk känsla och ådringarna i träet gör att köket ser levande ut. Ett klassiskt snickarkök är ofta byggt i trä av god kvalité och är mycket hållbart. Ett riktigt gediget lantligt bondkök! Om man inte vill lägga pengar på eller bygga ett kök själv från grunden finns det andra lösningar att använda sig av för att få ett kök med naturmaterial. Många återförsäljare har olika lösningar och prisklasser på köksluckor och bänkskivor i träfaner eller massivt trä.

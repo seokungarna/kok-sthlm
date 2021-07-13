@@ -4,13 +4,13 @@ title: Tips och råd inför köks eller badrumsrenoveringen
 status: Published
 date: '2020-01-20'
 categories:
-  - category: News
+  - category: Blogg
 featuredImage: '../images/tips.jpg'
 excerpt: >-
   Här finns lite tips och råd samlade som kan vara bra att tänka på om du är intresserad av att renovera ditt kök eller badrum. 
 meta:
   description: Här finns lite tips och råd samlade som kan vara bra att tänka på om du är intresserad av att renovera ditt kök eller badrum. 
-  title: Tips och råd inför köks eller badrumsrenoveringen
+  title: Tips och råd inför renoveringen.
 ---
 
 ![](/images/tips.jpg)
